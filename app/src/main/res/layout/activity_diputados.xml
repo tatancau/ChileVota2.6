@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Diputados">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/images"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eleccion de diputados"
+            android:layout_gravity="center"
+            android:textSize="25dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-25dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"/>
+            <TextView
+                android:id="@+id/TVnombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_margin="50dp"
+                android:layout_marginTop="-30dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"/>
+            <TextView
+                android:id="@+id/TVrut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="22dp"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/TVCandidato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Candidatos :"
+            android:textSize="20dp"
+            android:layout_marginTop="-50dp"
+            android:layout_gravity=""/>
+        //Andrea Duarte Vidal
+        <TextView
+            android:id="@+id/TVandrea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Andrea"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/TVduarte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "Duarte Vidal"
+            android:layout_marginTop="-25dp"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/andreaduarte"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/BTNandrea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-2dp"
+            android:layout_marginLeft="1dp"
+            android:layout_gravity="center"/>
+
+        //Raul Ormeño Vallavicencio Maraboli
+        <TextView
+            android:id="@+id/TVraul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raul Ormeño "
+            android:layout_marginTop="25dp"/><TextView
+        android:id="@+id/TVmaraboli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Vallavicencio Maraboli"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/raulvillavicencio"/>
+        <Button
+            android:id="@+id/BTNraul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+        //Caroina de la Paz Hinojosa Canales
+        <TextView
+            android:id="@+id/TVcarolina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caroina de la Paz Hinojosa Canales"
+            android:layout_marginTop="25dp"/><TextView
+        android:id="@+id/TVHinojosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Hinojosa Canales"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/carolinahinojosa"/>
+        <Button
+            android:id="@+id/BTNcarolina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+        //Jorge Arroyo Salgado
+        <TextView
+            android:id="@+id/TVjorge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jorge "
+            android:layout_marginTop="25dp"/><TextView
+        android:id="@+id/TVarroyo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Arrollo Salgado"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center"/>
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/jorgearroyo"/>
+        <Button
+            android:id="@+id/BTjorge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+        //Julián Alcayaga Olivarese
+        <TextView
+            android:id="@+id/TVjulian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Julián"
+            android:layout_marginTop="25dp"/><TextView
+        android:id="@+id/TValcayaga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Alcayaga Olivares"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center"/>
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/juliaayala"/>
+        <Button
+            android:id="@+id/BTjulian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+        //Patricia Valenzuela Sandoval
+        <TextView
+            android:id="@+id/TVpatricia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patricia"
+            android:layout_marginTop="25dp"/><TextView
+        android:id="@+id/TVvalenzuela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Valenzuela Sandoval"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center"/>
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/patriciavalenzuela"/>
+        <Button
+            android:id="@+id/BTNpatricia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Senadores">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/images"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eleccion de Senadores"
+            android:layout_gravity="center"
+            android:textSize="25dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-25dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"/>
+            <TextView
+                android:id="@+id/TVnombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_margin="50dp"
+                android:layout_marginTop="-30dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"/>
+            <TextView
+                android:id="@+id/TVrut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="22dp"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/TVCandidato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Candidatos :"
+            android:textSize="20dp"
+            android:layout_marginTop="-50dp" />
+        //Pablo Pizarro Bossay
+        <TextView
+            android:id="@+id/TVpablo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pablo"
+            android:layout_marginTop="25dp"/>
+        <TextView android:id="@+id/TVbossay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Pizarro Bossay"
+            android:layout_marginTop="25dp"/>
+
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pablopizarro"/>
+        <Button
+            android:id="@+id/BTbosay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+        //Sandra Zapata Velásquez
+        <TextView
+            android:id="@+id/TVsandra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandra "
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+        android:id="@+id/TVvelasquez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zapata Velasquez"
+        android:layout_marginTop="25dp"/>
+
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sandrazapata"/>
+        <Button
+            android:id="@+id/BTNsandra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+        //Claudio Ojeda Murillo
+        <TextView
+            android:id="@+id/TVclaudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Claudio "
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:id="@+id/TVmurillo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ojeda Murillo"
+            android:layout_marginTop="25dp"/>
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/claudioojeda"/>
+        <Button
+            android:id="@+id/BTNclaudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+        //Rodrigo Díaz Bogdanic
+        <TextView
+            android:id="@+id/TVrodrigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rodrigo "
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:id="@+id/TVdiaz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diaz Bogdanic"
+            android:layout_marginTop="25dp"/>
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rodrigodiaz"/>
+        <Button
+            android:id="@+id/BTNrodrigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+        //Verónica Foppiano Díaz
+        <TextView
+            android:id="@+id/TVveronica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verónica "
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:id="@+id/TVFoppiano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foppiano Diaz"
+            android:layout_marginTop="25dp"/>
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/veronicafoppiano"/>
+        <Button
+            android:id="@+id/BTveronica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+        //José Miguel Insulza Salinas
+        <TextView
+            android:id="@+id/TVjoseMiguel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="José Miguel "
+            android:layout_marginTop="25dp"/>
+        <TextView
+        android:id="@+id/TVmiguel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insulza Salinas"
+        android:layout_marginTop="25dp"/>
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/josemiguel"/>
+        <Button
+            android:id="@+id/BTNjoseMiguel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votar"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
