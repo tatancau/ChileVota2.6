@@ -74,7 +74,12 @@
             android:layout_height="wrap_content"
             android:text=" Ferry Campodónico"
             android:layout_marginTop="25dp"/>
-
+ <ImageView
+                android:layout_width="118dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginLeft="-170dp"
+                android:src="@drawable/carlosferry" />
 
         <Button
             android:id="@+id/BTcarlosferry"
@@ -97,7 +102,12 @@
             android:layout_height="wrap_content"
             android:text="Valcarce Becerra"
             android:layout_marginTop="25dp"/>
-
+ <ImageView
+                android:layout_width="118dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginLeft="-215dp"
+                android:src="@drawable/ximena" />
 
         <Button
             android:id="@+id/BTNximena"
@@ -120,7 +130,12 @@
             android:layout_height="wrap_content"
             android:text=" Lee Rodríguez"
             android:layout_marginTop="25dp"/>
-
+<ImageView
+               android:layout_width="118dp"
+               android:layout_height="80dp"
+               android:layout_marginTop="-0dp"
+               android:layout_marginLeft="-125dp"
+               android:src="@drawable/joselee" />
         <Button
             android:id="@+id/BTNjoselee"
             android:layout_width="wrap_content"
@@ -142,7 +157,12 @@
             android:layout_height="wrap_content"
             android:text=" Díaz Ibarra"
             android:layout_marginTop="25dp"/>
-
+ <ImageView
+                android:layout_width="118dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginLeft="-110dp"
+                android:src="@drawable/jorgediaz" />
         <Button
             android:id="@+id/BTNjorgediaz"
             android:layout_width="wrap_content"
@@ -164,7 +184,12 @@
             android:layout_height="wrap_content"
             android:text="Baltolu Quintano"
             android:layout_marginTop="25dp"/>
-
+ <ImageView
+                android:layout_width="118dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginLeft="-163dp"
+                android:src="@drawable/giancarlo" />
 
         <Button
             android:id="@+id/BTNgiancarlo"
@@ -187,7 +212,12 @@
             android:layout_height="wrap_content"
             android:text="Tapia Castro"
             android:layout_marginTop="25dp"/>
-
+ <ImageView
+                android:layout_width="118dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginLeft="-110dp"
+                android:src="@drawable/gary" />
         <Button
             android:id="@+id/BTNgary"
             android:layout_width="wrap_content"
